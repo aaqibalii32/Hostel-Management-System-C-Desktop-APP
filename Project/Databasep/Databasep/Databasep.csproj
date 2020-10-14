@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0AFF5374-BA4C-4B5F-8280-91843ECEF580}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Databasep</RootNamespace>
+    <AssemblyName>Databasep</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>E:\Software\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework">
+      <HintPath>..\..\..\..\..\..\Downloads\Compressed\metroframework.dll-26467\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Add Visitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add Visitor.Designer.cs">
+      <DependentUpon>Add Visitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Employee.Designer.cs">
+      <DependentUpon>Add_Employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="add_employee1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_employee1.Designer.cs">
+      <DependentUpon>add_employee1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="add_visitor1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_visitor1.Designer.cs">
+      <DependentUpon>add_visitor1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Change Password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Change Password.Designer.cs">
+      <DependentUpon>Change Password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Check Status.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Check Status.Designer.cs">
+      <DependentUpon>Check Status.cs</DependentUpon>
+    </Compile>
+    <Compile Include="confirm_admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="confirm_admin.Designer.cs">
+      <DependentUpon>confirm_admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fees1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fees1.Designer.cs">
+      <DependentUpon>Fees1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forgot Password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forgot Password.Designer.cs">
+      <DependentUpon>Forgot Password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Leave Message.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Leave Message.Designer.cs">
+      <DependentUpon>Leave Message.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_user.Designer.cs">
+      <DependentUpon>Add_user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main Window.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Window.Designer.cs">
+      <DependentUpon>Main Window.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fees.Designer.cs">
+      <DependentUpon>Fees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Display.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Display.Designer.cs">
+      <DependentUpon>Display.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositry\Person.cs" />
+    <Compile Include="Repositry\PersonDB.cs" />
+    <Compile Include="Repositry\Personservices.cs" />
+    <Compile Include="Show Message.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Show Message.Designer.cs">
+      <DependentUpon>Show Message.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Status.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Status.Designer.cs">
+      <DependentUpon>Status.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SUD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SUD.Designer.cs">
+      <DependentUpon>SUD.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Add Visitor.resx">
+      <DependentUpon>Add Visitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Employee.resx">
+      <DependentUpon>Add_Employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add_employee1.resx">
+      <DependentUpon>add_employee1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add_visitor1.resx">
+      <DependentUpon>add_visitor1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Change Password.resx">
+      <DependentUpon>Change Password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Check Status.resx">
+      <DependentUpon>Check Status.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="confirm_admin.resx">
+      <DependentUpon>confirm_admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Display.resx">
+      <DependentUpon>Display.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fees1.resx">
+      <DependentUpon>Fees1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forgot Password.resx">
+      <DependentUpon>Forgot Password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Leave Message.resx">
+      <DependentUpon>Leave Message.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_user.resx">
+      <DependentUpon>Add_user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Window.resx">
+      <DependentUpon>Main Window.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fees.resx">
+      <DependentUpon>Fees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Show Message.resx">
+      <DependentUpon>Show Message.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Status.resx">
+      <DependentUpon>Status.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SUD.resx">
+      <DependentUpon>SUD.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
